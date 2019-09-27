@@ -6,6 +6,7 @@ import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
 
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -41,7 +42,7 @@ class Main extends React.Component {
               borderRight: '1px solid #2d2d2d',
               boxShadow: 'inset 3px 1px 1px #f1f0f0'
           }} 
-            src={pic01} alt="Picture of Matt." />
+            src={pic01} alt="Portrait Shot of Matt." />
           </span>
           <h3>Transforming what it means to be a developer</h3>
           <p>
@@ -187,7 +188,8 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form name="contact" method="POST" data-netlify="true">
+          <form id="contact" name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="contact" value="contact" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
