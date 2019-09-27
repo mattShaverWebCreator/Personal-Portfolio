@@ -18,6 +18,18 @@
 		z-index: 3;
 		display: none;
 
+		a {
+			&:hover {
+				img {
+					filter: blur(0.8px);
+				}
+				h3 {
+					color: #7d7c7c;
+    				filter: blur(0.8px);
+				}
+			}
+		}
+
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
 			@include vendor('transition', (
