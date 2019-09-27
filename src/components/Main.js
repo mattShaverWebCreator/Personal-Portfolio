@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic04 from '../images/pic04.jpg'
@@ -19,11 +20,17 @@ class Main extends React.Component {
     )
 
     return (
+
       <div
         ref={this.props.setWrapperRef}
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
+            <Helmet>
+        <meta charSet="utf-8" />
+        <title>Matt Shaver's Portfolio</title>
+        <link rel="canonical" href="http://websitedesignnorthcarolina.com/" />
+      </Helmet>
         <article
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
@@ -204,7 +211,7 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
-                <button type="submit" value="Send Message" className="special" />
+                <button type="submit" value="Send Message" className="special">Send Message</button>
               </li>
               <li>
                 <input type="reset" value="Reset" />
