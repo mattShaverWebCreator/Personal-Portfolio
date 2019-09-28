@@ -43,14 +43,13 @@ const Layout = ({ children, location }) => {
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: data.site.siteMetadata.description },
-              { property: 'og:url', content: 'http://websitedesignnorthcarolina.com'},
+              { property: 'og:url', content: 'https://websitedesignnorthcarolina.com'},
               { property: 'og:type', content: 'website'},
               { property: 'og:title', content: "Matt's Portfolio"},
               { property: 'og:description', content: data.site.siteMetadata.description },
               { property: 'og:image', content: data.site.siteMetadata.image}
             ]}
           >
-            <html lang="en" />
           </Helmet>
           {content}
         </>
