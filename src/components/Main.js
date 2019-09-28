@@ -1,13 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import { Helmet } from 'react-helmet'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
-import pic08 from '../images/pic08.jpg'
-
 
 class Main extends React.Component {
   render() {
@@ -27,16 +24,6 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
-            <Helmet>
-        <meta charSet="utf-8" />
-        <title>Matt Shaver's Portfolio</title>
-        <link rel="canonical" href="https://websitedesignnorthcarolina.com/" />
-        <meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Matt Shaver's Portfolio" />
-        <meta property="og:description" content="Matt Shaver is a Front End Developer with a passion for creating amazing experiences." />
-        <meta property="og:image" content={pic08} />
-      </Helmet>
         <article
           id="intro"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
@@ -88,7 +75,6 @@ class Main extends React.Component {
           </ul>
           {close}
         </article>
-
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -156,7 +142,6 @@ class Main extends React.Component {
           <a href="https://razzafrazza.github.io/AIA/"><h3>Visit AIA</h3></a>
           {close}
         </article>
-
         <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
@@ -192,7 +177,6 @@ class Main extends React.Component {
             </p>
           {close}
         </article>
-
         <article
           id="contact"
           className={`${this.props.article === 'contact' ? 'active' : ''} ${
@@ -253,7 +237,6 @@ class Main extends React.Component {
     )
   }
 }
-
 Main.propTypes = {
   route: PropTypes.object,
   article: PropTypes.string,
@@ -262,5 +245,4 @@ Main.propTypes = {
   timeout: PropTypes.bool,
   setWrapperRef: PropTypes.func.isRequired,
 }
-
 export default Main
