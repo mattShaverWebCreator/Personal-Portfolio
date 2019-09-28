@@ -6,6 +6,7 @@ import pic02 from '../images/pic02.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
+import pic08 from '../images/pic08.jpg'
 
 
 class Main extends React.Component {
@@ -29,7 +30,12 @@ class Main extends React.Component {
             <Helmet>
         <meta charSet="utf-8" />
         <title>Matt Shaver's Portfolio</title>
-        <link rel="canonical" href="http://websitedesignnorthcarolina.com/" />
+        <link rel="canonical" href="https://websitedesignnorthcarolina.com/" />
+        <meta property="og:url" content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Matt Shaver's Portfolio" />
+        <meta property="og:description" content="Matt Shaver is a Front End Developer with a passion for creating amazing experiences." />
+        <meta property="og:image" content={pic08} />
       </Helmet>
         <article
           id="intro"
