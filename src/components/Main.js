@@ -163,6 +163,8 @@ class Main extends React.Component {
             Matt also launched his first Wordpress blog that was a news aggregate for the affairs of Tiger Woods. 
             Matt studied Internet Marketing during high school and thought this would be an easy site to rank on Google. 
             He was right. </p>
+          <p> Matt has since went on to work as a part of start-up, agency and corporate based teams. He currently takes on projects
+            selectively outside of his day job as a web developer for the AAA Carolinas team. </p> 
           <h3>INNOVATION, PASSION</h3>
           <p>
             Matt believes that if he doesn't learn something new on any given day, that day is a failure. 
