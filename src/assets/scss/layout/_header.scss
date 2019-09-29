@@ -109,7 +109,7 @@
 						border-left: 0;
 					}
 
-					a {
+					button {
 						display: block;
 						min-width: 7.5rem;
 						height: 2.75rem;
@@ -233,20 +233,21 @@
 					@include vendor('flex-direction', 'column');
 					min-width: 10rem;
 					max-width: 100%;
+					border: none;
 
 					li {
 						border-left: 0;
-						border-top: solid _size(border-width) _palette(border);
 
 						&:first-child {
 							border-top: 0;
 						}
 
-						a {
+						button {
 							height: 3rem;
 							line-height: 3rem;
 							min-width: 0;
 							width: 100%;
+							margin-bottom: 8px;
 						}
 					}
 				}
