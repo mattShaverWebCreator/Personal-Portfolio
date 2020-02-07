@@ -19,13 +19,14 @@
 		display: none;
 
 		a {
+			text-decoration: none;
 			&:hover {
 				img {
 					filter: blur(0.8px);
 				}
 				h3 {
 					color: #7d7c7c;
-    				filter: blur(0.8px);
+					filter: blur(0.8px);
 				}
 			}
 		}
