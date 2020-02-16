@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "Personal Portfolio",
+  "description": "Personal Portfolio v1",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Matthew Shaver",
   "dependencies": {
     "gatsby": "^2.15.14",
     "gatsby-plugin-crisp-chat": "^3.2.1",
@@ -23,13 +23,16 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "formatJSX": "prettier --write --tab-width 4 \"src/**/*.js\"",
+    "formatSCSS": "prettier --write --tab-width 4 \"src/**/*.scss\"",
+    "precommit": "lint-staged"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/mattShaverWebCreator/Personal-Portfolio"
   }
 }
