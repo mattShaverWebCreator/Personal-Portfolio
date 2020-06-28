@@ -14,8 +14,7 @@
 
 		&:before {
 			@include vendor('pointer-events', 'none');
-			background-image: url('../../images/overlay.png');
-			background-color: _palette(bg-overlay);
+			background:none;
 			border-radius: _size(border-radius);
 			content: '';
 			display: block;

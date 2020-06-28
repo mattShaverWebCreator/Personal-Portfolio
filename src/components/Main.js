@@ -49,24 +49,21 @@ class Main extends React.Component {
                   display: 'inline-block',
                   width: '25%',
                   padding: '8px',
-                  borderRadius: '100%',
-                  borderLeft: '1px solid white',
-                  borderRight: '1px solid #2d2d2d',
-                  boxShadow: 'inset 3px 1px 1px #f1f0f0'
+                  borderRadius: '100%'
                 }}
                 src={pic01}
                 alt="Portrait Shot of Matt."/>
             </span>
-            <h3>Transforming What It Means To Be A Developer</h3>
+            <h3>Transforming What It Means To Be An Engineer</h3>
             <p>
               Matt goes above, beyond when it comes to learning, creating with technology.
             </p>
-            <h3>Revolutionizing Code</h3>
+            <h3>Revolutionizing</h3>
             <p>
               Matt loves to push the boundaries of what is possible when it comes to website,
-              app development.
+              app development, coding and problem solving.
             </p>
-            <h3>Some Of The Technology Matt Uses:</h3>
+            <h3>Some Of The Technology That Matt Uses:</h3>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -109,13 +106,13 @@ class Main extends React.Component {
             <p>
               The Crwn Clothing App was built using ReactJS, Redux, SCSS, CSS Grid, Flexbox, 
               Styled Components, Redux Saga, Stripe, React Hooks, Firebase.
-              <br/>
-              This fully responsive app's features includes a Test Stripe integration, Google Auth Sign In,
+              <br/><br/>
+              This fully responsive app's features include a Test Stripe integration, Google Auth Sign In,
               Email/Password Sign In, Shopping Cart, Data Fetching/Storing with Firebase + More.
-              <br/>
-              The app is based in a Github Repo with a master, relese, development branch. 
-              <br />
-              The release, development branch are automatically deployed to seperate Heroku instances when new commits are pushed to release, development. 
+              <br/><br/>
+              The app is located in a Github Repo with a master, relese, development branch. 
+              <br/><br/>
+              The release, development branches are automatically deployed to seperate Heroku instances when new commits are pushed to release, development. 
             </p>
             <a href="https://crwn-clothing-prodapp.herokuapp.com/">
               <h3>Visit Crwn Clothing App</h3>
@@ -132,16 +129,16 @@ class Main extends React.Component {
             <p>
               AAA is a privately held non-profit national member association and service
               organization with over 58 million members in the United States and Canada. 
-              <br/>
+              <br/><br/>
               Matt worked in AAA Carolina's Marketing Department as a Front End Engineer for roughly 11 months. 
-              <br/>
-              Matt, another developer were in charge of creating, testing, updating Wordpress Pages, Landing Pages,
+              <br/><br/>
+              Matt, another engineer were in charge of creating, testing, updating Wordpress Pages, Landing Pages,
               Wordpress Themes, Wordpress Plug-ins(ACF, Yoast SEO, CPT UI + More) using HTML, CSS, PHP, JS, jQuery, Flexbox, Bootstrap 4, 
               Polyfills, Adobe XD, Photoshop. 
-              <br/>
-              Matt utilized Javascript, Git, Typescript, jQuery, ReactJS, CSS Grid, GraphQL, Apollo and More while working on AAA Carolinas
+              <br/><br/>
+              Matt utilized Javascript, Git, Typescript, jQuery, ReactJS, CSS Grid, GraphQL, Apollo and more while working on AAA Carolinas
               marketing projects. 
-              <br/>
+              <br/><br/>
               Slack was the primary communications tool that Matt used when communicating with other team members.
               Wrike was the project management solution that Matt and the rest of the team used. 
             </p>
@@ -212,18 +209,23 @@ class Main extends React.Component {
             <h3>THE BEGINNING</h3>
             <p>
               Matt developed his first website in middle school after his favorite online games at
-              the time were blocked by the school's IT Administrator. The site he built was a
+              the time were blocked by the school's IT Administrator. The website he created was a
               way for himself, classmates to circumvent this block. He took his first
-              freelance assignment as a web developer while he was in highschool. 
+              freelance assignment as a web developer while he was in highschool using HTML, CSS, Image Maps, Wordpress. 
               He became better at HTML, CSS partially due to the popularity of the social media website Myspace and the
-              online game Neopets.
+              online game, social media site called Neopets.
             </p>
             <p>
-              Both Myspace, Neopets allowed users to create custom profiles using Html, CSS.
-              Matt took on some freelance work building custom Myspace, Neopets layouts. Matt
+              Both Myspace, Neopets allowed users to create custom profiles using HTML, CSS.
+              Matt took on some freelance work building custom Myspace, Neopets layouts for other users. Matt
               also launched his first Wordpress blog that was a news aggregate for the affairs
               of Tiger Woods. Matt studied Internet Marketing during high school and thought
-              this would be an easy site to rank on Google. He was right.
+              this would be an easy site to rank on Google due to the large number of google searches for Tiger Woods. He was right.
+            </p>
+            <p>
+              Since then Matt has spent a ton of time teaching himself as well as learning through experience:
+              comp sci fundamentals, programming + much more. He has completed online courses through MITx, freeCodeCamp, Udemy 
+              and more.  
             </p>
             <p>
               Matt has since went on to work as a part of start-up, agency and corporate
@@ -238,24 +240,21 @@ class Main extends React.Component {
               <li>Beauty</li>
               <li>Fine Jewelry, Apparel</li>
             </ul>
-            <p>Matt has helped entrepreneurs define their personal brands through their
-                websites, marketing strategies.</p>
-            <p>
-              Matt is currently selectively interested in new roles or projects.
+            <p>Not only that, Matt has helped entrepreneurs define their personal brands through their
+               websites, marketing strategies.
+               Matt is currently selectively interested in new roles or projects.
             </p>
             <h3>INNOVATION, PASSION</h3>
             <p>
-              Matt believes that if he doesn't learn something new on any given day, that day
-              is a failure. Matt believes in honesty, integrity when it comes to business.</p>
+              Matt believes that if he doesn't learn something new on any given day, then that day
+              is a failure. Matt believes in honesty, integrity in all aspects of life.</p>
             <p>
               Matt is great at managing multiple responsibilities, time management, naturally independant, 
               and constantly seeking new challenges.
             </p>
             <p>
-              Matt stays on top of the latest trends in Development, Design #reactamsterdam
-              <br></br>
-              <br></br>
-              Matt is someone you can count on.
+              Matt stays on top of the latest trends in Engineering, Development, Design #reactamsterdam
+              Matt is someone you can count on to put in the hard work required for success.
             </p>
             {close}
           </article>
