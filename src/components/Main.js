@@ -206,6 +206,21 @@ class Main extends React.Component {
             display: 'none'
           }}>
             <h2 className="major">About</h2>
+            <span
+              className="image main"
+              style={{
+              textAlign: 'center'
+            }}>
+              <img
+                style={{
+                  display: 'inline-block',
+                  width: '25%',
+                  padding: '8px',
+                  borderRadius: '100%'
+                }}
+                src={pic01}
+                alt="Portrait Shot of Matt."/>
+            </span>
             <h3>THE BEGINNING</h3>
             <p>
               Matt developed his first website in middle school after his favorite online games at
