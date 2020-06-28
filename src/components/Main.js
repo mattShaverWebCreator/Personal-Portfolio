@@ -6,7 +6,6 @@ import pic02 from '../images/pic02.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
-import crwnClothingPreview from '../images/crwn-clothing-preview.jpg'
 
 class Main extends React.Component {
   render() {
@@ -99,7 +98,7 @@ class Main extends React.Component {
             <h2 className="major">Work</h2>
             <div className="image main">
               <a href="https://crwn-clothing-prodapp.herokuapp.com">
-                <img src={crwnClothingPreview} alt="A glimpse of Crwn Clothing App."/>
+                <img src="https://res.cloudinary.com/dwe1hxicg/image/upload/c_scale,w_600/v1593372728/Portfolio/crwn-clothing-preview_lnlyg4.jpg" alt="A glimpse of Crwn Clothing App."/>
               </a>
             </div>
             <h3>CRWN CLOTHING APP</h3>
