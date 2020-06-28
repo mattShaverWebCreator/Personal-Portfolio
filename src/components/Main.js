@@ -59,8 +59,7 @@ class Main extends React.Component {
             </span>
             <h3>Transforming What It Means To Be A Developer</h3>
             <p>
-              Matt goes above, beyond when it comes to learning, creating with Front End
-              Technology.
+              Matt goes above, beyond when it comes to learning, creating with technology.
             </p>
             <h3>Revolutionizing Code</h3>
             <p>
@@ -134,7 +133,7 @@ class Main extends React.Component {
               AAA is a privately held non-profit national member association and service
               organization with over 58 million members in the United States and Canada. 
               <br/>
-              Matt worked in AAA Carolina's Marketing Department as a Front End Developer for roughly 11 months. 
+              Matt worked in AAA Carolina's Marketing Department as a Front End Engineer for roughly 11 months. 
               <br/>
               Matt, another developer were in charge of creating, testing, updating Wordpress Pages, Landing Pages,
               Wordpress Themes, Wordpress Plug-ins(ACF, Yoast SEO, CPT UI + More) using HTML, CSS, PHP, JS, jQuery, Flexbox, Bootstrap 4, 
@@ -242,7 +241,7 @@ class Main extends React.Component {
             <p>Matt has helped entrepreneurs define their personal brands through their
                 websites, marketing strategies.</p>
             <p>
-              Matt is currently selectively interested in new remote roles or projects.
+              Matt is currently selectively interested in new roles or projects.
             </p>
             <h3>INNOVATION, PASSION</h3>
             <p>

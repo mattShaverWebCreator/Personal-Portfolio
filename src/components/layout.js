@@ -45,7 +45,7 @@ const Layout = ({ children, location }) => {
               { name: 'description', content: data.site.siteMetadata.description },
               { property: 'og:url', content: 'https://mattshaverwebcreator.com'},
               { property: 'og:type', content: 'website'},
-              { property: 'og:title', content: "Matt's Portfolio"},
+              { property: 'og:title', content: "Matt Shaver's Portfolio"},
               { property: 'og:description', content: data.site.siteMetadata.description },
               { property: 'og:image', content: 'https://scontent.fbeg4-1.fna.fbcdn.net/v/t1.0-9/s960x960/71803732_952924578395500_104562138462289920_o.jpg?_nc_cat=105&_nc_sid=dd9801&_nc_ohc=5s-PsDsWpmMAX94z7dH&_nc_ht=scontent.fbeg4-1.fna&_nc_tp=7&oh=3d2f74ed3190afe6d4da390c2d15289f&oe=5ED01DE3'}
             ]}
