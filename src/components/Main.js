@@ -46,7 +46,7 @@ class Main extends React.Component {
               <img
                 style={{
                   display: 'inline-block',
-                  width: '25%',
+                  width: '53%',
                   padding: '8px',
                   borderRadius: '100%'
                 }}
@@ -55,12 +55,11 @@ class Main extends React.Component {
             </span>
             <h3>Transforming What It Means To Be An Engineer</h3>
             <p>
-              Matt goes above, beyond when it comes to learning, creating with technology.
-            </p>
-            <h3>Revolutionizing</h3>
-            <p>
-              Matt loves to push the boundaries of what is possible when it comes to website,
-              app development, coding and problem solving.
+              Matt is a polymath whose biggest strength is comboing beginner, mid - expert level skills. He is also
+              a lifelong learner and loves innovating with technology. Matt loves to push the boundaries of what is possible when it comes to website,
+              app development, coding and problem solving. His passion/long term goal is solving very complex real world problems with like-minded people from 
+              many different backgrounds using digital means. Matt also values personal growth, personal freedom, challenges and 
+              putting in the teamwork that is needed for great success.
             </p>
             <h3>Some Of The Technology That Matt Uses:</h3>
             <ul>
@@ -213,7 +212,7 @@ class Main extends React.Component {
               <img
                 style={{
                   display: 'inline-block',
-                  width: '25%',
+                  width: '53%',
                   padding: '8px',
                   borderRadius: '100%'
                 }}
@@ -242,12 +241,15 @@ class Main extends React.Component {
               and more.  
             </p>
             <p>
-              Matt has since went on to work as a part of start-up, agency and corporate
+              Matt has since went on to work as part of start-up, agency and corporate
               based teams working with B2B, B2C companies in several industries including:
             </p>
             <ul>
               <li>Health</li>
               <li>Marketing</li>
+              <li>Finance</li>
+              <li>Food</li>
+              <li>Coaching</li>
               <li>Construction</li>
               <li>Tourism</li>
               <li>Humanitarian</li>
@@ -283,7 +285,7 @@ class Main extends React.Component {
             display: 'none'
           }}>
             <h2 className="major">Contact</h2>
-            <form id="contact" name="contact" method="POST" data-netlify="true">
+            <form id="contact" name="contact" method="POST" data-netlify="true" action="">
               <input type="hidden" name="contact" value="contact"/>
               <div className="field half first">
                 <label htmlFor="name">Name</label>
@@ -299,7 +301,7 @@ class Main extends React.Component {
               </div>
               <ul className="actions">
                 <li>
-                  <button type="submit" value="Send Message" className="special">Send Message</button>
+                  <button type="submit">Send Message</button>
                 </li>
                 <li>
                   <input type="reset" value="Reset"/>

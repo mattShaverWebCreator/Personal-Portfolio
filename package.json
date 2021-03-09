@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Matthew Shaver",
   "dependencies": {
-    "gatsby": "^2.15.14",
+    "gatsby": "^2.28.2",
     "gatsby-plugin-crisp-chat": "^3.2.1",
     "gatsby-plugin-manifest": "^2.2.16",
     "gatsby-plugin-offline": "^3.0.6",
