@@ -285,7 +285,7 @@ class Main extends React.Component {
             display: 'none'
           }}>
             <h2 className="major">Contact</h2>
-            <form id="contact" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form id="contact" name="contact" method="post" netlify data-netlify="true" data-netlify-honeypot="bot-field">
               <input type="hidden" name="contact" value="contact"/>
               <div className="field half first">
                 <label htmlFor="name">Name</label>
@@ -304,7 +304,7 @@ class Main extends React.Component {
                   <button type="submit">Send Message</button>
                 </li>
                 <li>
-                  <input type="reset" value="Reset"/>
+                  <input type="reset" name="reset" value="Reset"/>
                 </li>
               </ul>
             </form>
